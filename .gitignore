@@ -1,0 +1,18 @@
+# raw HFSS exports and derived arrays (see data/README.md)
+data/*
+!data/README.md
+!data/splits.json
+processed/
+results/
+
+# only the released checkpoint is tracked
+checkpoints/*
+!checkpoints/rapid/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
